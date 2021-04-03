@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+/home/pierre/Documents/meus-projetos/Backend/ms-venda1/.metadata/.plugins/org.eclipse.jdt.core
