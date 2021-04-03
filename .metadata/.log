@@ -26,3 +26,207 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2021-04-03 18:56:57.189
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:01:18.322
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:01:18.322
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@65c2345e[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=572)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:01:18.323
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:01:18.339
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:01:20.129
+!MESSAGE Boot LS startup time from start to initialized: 1801ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:01:20.210
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DpHpZQTxisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:01:20.214
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:01:20.223
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:01:20.224
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:01:20.224
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:01:20.225
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DpHpZQTx => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:01:20.230
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:01:20.232
+!MESSAGE buffering callback sts4.classpath.DpHpZQTx ms-vendas false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:01:20.233
+!MESSAGE executing callback sts4.classpath.DpHpZQTx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:01:20.279
+!MESSAGE executing callback sts4.classpath.DpHpZQTx SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-04-03 19:04:37.308
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-04-03 19:47:05.680
+!MESSAGE The POM for org.modelmapper:modelmapper:jar:2.4.4 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-04-03 19:47:05.680
+!MESSAGE The POM for org.modelmapper:modelmapper:jar:2.4.4 is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:47:06.270
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:47:06.271
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:47:06.271
+!MESSAGE buffering callback sts4.classpath.DpHpZQTx ms-vendas false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:47:06.271
+!MESSAGE executing callback sts4.classpath.DpHpZQTx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:47:06.275
+!MESSAGE executing callback sts4.classpath.DpHpZQTx SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-04-03 19:47:07.291
+!MESSAGE The POM for org.modelmapper:modelmapper:jar:2.4.4 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-04-03 19:47:08.162
+!MESSAGE Could not download sources for org.modelmapper:modelmapper:2.4.4
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.modelmapper:modelmapper:jar:sources:2.4.4
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.modelmapper:modelmapper:jar:sources:2.4.4
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-04-03 19:47:08.164
+!MESSAGE Could not resolve artifact org.modelmapper:modelmapper:jar:sources:2.4.4
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2021-04-03 19:47:08.164
+!MESSAGE Missing org.modelmapper:modelmapper:jar:sources:2.4.4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:47:31.679
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:47:31.681
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:47:31.681
+!MESSAGE buffering callback sts4.classpath.DpHpZQTx ms-vendas false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:47:31.682
+!MESSAGE executing callback sts4.classpath.DpHpZQTx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:47:31.686
+!MESSAGE executing callback sts4.classpath.DpHpZQTx SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-04-03 19:49:55.360
+!MESSAGE The POM for org.modelmapper:modelmapper:jar:2.4.4 is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:49:55.574
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:49:55.576
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:49:55.576
+!MESSAGE buffering callback sts4.classpath.DpHpZQTx ms-vendas false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:49:55.576
+!MESSAGE executing callback sts4.classpath.DpHpZQTx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:49:55.579
+!MESSAGE executing callback sts4.classpath.DpHpZQTx SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-04-03 19:49:56.537
+!MESSAGE The POM for org.modelmapper:modelmapper:jar:2.4.4 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-04-03 19:49:57.300
+!MESSAGE Could not download javadoc for org.modelmapper:modelmapper:2.4.4
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.modelmapper:modelmapper:jar:javadoc:2.4.4
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.modelmapper:modelmapper:jar:javadoc:2.4.4
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-04-03 19:49:57.301
+!MESSAGE Could not resolve artifact org.modelmapper:modelmapper:jar:javadoc:2.4.4
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2021-04-03 19:49:57.301
+!MESSAGE Missing org.modelmapper:modelmapper:jar:javadoc:2.4.4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:50:20.808
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:50:20.810
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:50:20.810
+!MESSAGE buffering callback sts4.classpath.DpHpZQTx ms-vendas false 96
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:50:20.810
+!MESSAGE executing callback sts4.classpath.DpHpZQTx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:50:20.814
+!MESSAGE executing callback sts4.classpath.DpHpZQTx SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:50:23.141
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:50:23.142
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:50:23.142
+!MESSAGE buffering callback sts4.classpath.DpHpZQTx ms-vendas false 96
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:50:23.142
+!MESSAGE executing callback sts4.classpath.DpHpZQTx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-03 19:50:23.147
+!MESSAGE executing callback sts4.classpath.DpHpZQTx SUCCESS [done]

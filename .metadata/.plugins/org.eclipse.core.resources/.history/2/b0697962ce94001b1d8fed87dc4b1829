@@ -1,0 +1,5 @@
+package com.pierredev.entities;
+
+public class Produto {
+
+}
