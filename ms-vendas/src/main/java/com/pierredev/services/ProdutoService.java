@@ -41,7 +41,7 @@ public class ProdutoService {
 		return ProdutoVO.create(entity);
 	}
 	
-	public ProdutoVO upadte(ProdutoVO produtoVO) {
+	public ProdutoVO update(ProdutoVO produtoVO) {
 		final Optional<Produto> optionalProduto = produtoRepository.findById(produtoVO.getId());
 		if(!optionalProduto.isPresent()) {
 			new ResourceNotfoundException("No records found for this id");
