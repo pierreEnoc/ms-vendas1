@@ -12,6 +12,11 @@ target/
 .settings
 .springBeans
 .sts4-cache
+.metadata/
+.plugins/org
+.eclipse.core
+.resources/
+.history
 
 ### IntelliJ IDEA ###
 .idea

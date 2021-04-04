@@ -1,0 +1,24 @@
+package com.pierredev.resources;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.web.PagedResourcesAssembler;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.pierredev.data.vo.ProdutoVO;
+import com.pierredev.services.ProdutoService;
+
+@RestController
+@RequestMapping("/produto")
+public class ProdutoResource {
+
+	@Autowired
+	private final ProdutoService produtoService;
+	private PagedResourcesAssembler<ProdutoVO> assembler;
+	public ProdutoResource(ProdutoService produtoService, PagedResourcesAssembler<ProdutoVO> assembler) {
+		this.produtoService = produtoService;
+		this.assembler = assembler;
+	}
+
+
+}
