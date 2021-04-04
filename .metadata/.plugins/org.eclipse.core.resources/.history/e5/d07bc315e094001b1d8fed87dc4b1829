@@ -15,13 +15,16 @@ import com.pierredev.repositories.ProdutoRepository;
 @Service
 public class ProdutoService {
 	
-	//private final ProdutoRepository produtoRepository;
+	private final ProdutoRepository ProdutoRepository;
 	
 	@Autowired
-	private ProdutoRepository produtoRepository;
-		
+	//private ProdutoRepository produtoRepository;
+	public ProdutoService(ProdutoRepository produtoRepository) {
+		this.ProdutoRepository = produtoRepository;
+	}
+	
 	public ProdutoVO create(ProdutoVO produtoVO) {
-		ProdutoVO proVoRetorno = ProdutoVO.create(produtoRepository.save(Produto.create(produtoVO)));
+		ProdutoVO proVoRetorno = ProdutoVO.create(ProdutoRepository.save(Produto.create(produtoVO)));
 		return  proVoRetorno;
 	}
 	
@@ -42,18 +45,14 @@ public class ProdutoService {
 	}
 	
 	public ProdutoVO upadte(ProdutoVO produtoVO) {
-		final Optional<Produto> optionalProduto = produtoRepository.findById(produtoVO.getId());
+		final Optional<Produto> optionalProduto = produtoRepository.findById(produtoVO.getId));
 		if(!optionalProduto.isPresent()) {
 			new ResourceNotfoundException("No records found for this id");
 		}
-		return ProdutoVO.create(produtoRepository.save(Produto.create(produtoVO)));
-	}
-	
-	public void delete(Long id) {
-		var entity = produtoRepository.findById(id)
-				.orElseThrow(() -> new ResourceNotfoundException("No records found for this id"));
-		produtoRepository.delete(entity);
+		return ProdutoVO.create(produtoRepository.save(Produto.create(produtoVO.)));
 	}
 	
 	
+	
+
 }

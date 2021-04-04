@@ -15,15 +15,13 @@ import com.pierredev.data.vo.ProdutoVO;
 
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.ToString;
 
 @Entity
 @Table(name = "produto")
-@ToString
-@AllArgsConstructor
-@NoArgsConstructor
-@EqualsAndHashCode
 public class Produto implements Serializable {
 
 	private static final long serialVersionUID = 1L;

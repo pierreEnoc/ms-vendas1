@@ -22,7 +22,6 @@ INDEX VERSION 1.131+/home/pierre/Documents/meus-projetos/Backend/ms-venda1/.meta
 335370284.index
 3380580081.index
 3645506257.index
-3508606906.index
 247432110.index
 1708279842.index
 109961007.index
